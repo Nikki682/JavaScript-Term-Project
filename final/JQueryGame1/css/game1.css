@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+
+/* @keyframes rock{
+    0% {transform: rotate(10deg);}
+    50% {transform: rotate(-10deg);}
+    100% {transform: rotate(10deg);}
+} */
+
+body {
+  font-family: "Irish Grover", cursive;
+
+  /* width:96%; */
+  margin-top: 2%;
+  margin: 2%;
+
+  background-image: url("../media/curtains.jpg");
+  background-repeat: no-repeat;
+  background-position: fill;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#MoveMe2,
+#MoveMe3,
+#MoveMe4,
+#MoveMe5,
+#MoveMe6,
+#MoveMe7,
+#MoveMe8,
+#MoveMe9,
+#MoveMe10,
+#MoveMe11,
+#MoveMe12,
+#MoveMe13 {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
+p {
+  flex: 1;
+  width: 10px;
+}
+div {
+  padding-left: 455px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Irish Grover", cursive;
+  color: white;
+  text-shadow: 5px 5px red;
+}
+h2 {
+  font-family: "Irish Grover", cursive;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+h3 {
+  font-family: "Irish Grover", cursive;
+  color: black;
+  text-align: center;
+}
+a {
+  font-size: 2em;
+  font-family: "Irish Grover", cursive;
+  color: white;
+  text-shadow: 3px 3px red;
+  text-decoration: none;
+}

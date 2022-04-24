@@ -1,0 +1,16 @@
+Project name: Big Top
+The audience is for most people willing to play a small browser game, as well as any circus enthusiests. 
+The menu screen layout is interactice when hovering on a link to a choosen game. Game choices are laid out like a 3 ring circus 
+with lots of red and yellow. 
+
+clicking a game brings you to a the game screen where the themes vary from game to game but
+have a dark feel like before the spotlight shines on the main event, with or without the drapery.
+I feel this adds to the user experience.
+
+First Game Jigsaw Just a drag and Drop game. Put the pictures together correctly to make the complete picture.
+
+Coding issues. All of them. Flexbox trouble, getting the pieces sized right, and positioning of everything.
+Still need mobile friendly, a timer for scoring and an event when the puzzle is completed correctly, as well as a reset button.
+
+Second Game 
+

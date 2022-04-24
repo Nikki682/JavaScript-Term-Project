@@ -1,0 +1,123 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+background-image: url("../../media/curtains.jpg");
+background-color: #000;
+}
+.wrapper{
+border: 3px solid black;
+width: 800px;
+height: 600px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); /*abosolute centering technique*/
+background-image: url("../media/y.png");
+overflow: hidden; 
+background-color: rgb(255, 0, 0);
+border-radius: 10px;
+}
+.score{
+font-size: 150px;
+color: black;
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+width: 200px;
+height: 100px;
+text-align: center;
+}
+.countdown{
+position:absolute;
+top: 490px;
+width: 100%;
+font-size: 20px;
+text-align: center;
+color: #000;
+}
+button{
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translate(-50%, 0);
+background: rgb(6, 151, 20);
+color: rgb(0, 0, 0);
+padding: 20px 50px;
+border-radius: 10px;
+ z-index: 200; /*ontop of other elements */
+cursor: pointer;
+border: none;
+outline: none;
+}
+.game{
+/* border: 2px solid black;  */
+width: 600px;
+height: 400px;
+margin: 70px auto;
+z-index: 200;  /*on top and interactive*/
+display: flex;
+flex-wrap: wrap;
+}
+.hole{
+/* border:3px solid saddlebrown ; */
+flex: 1 0 33.33%;  /*flex grow, shrink, basis*/
+position: relative;
+overflow:hidden;
+
+}
+.hole:after{
+content: '';
+display: block;
+background-image: url("../media/b1.png");
+/* background: black; */
+position: absolute;
+width: 100%;
+height: 70px;
+z-index: 2;
+bottom: -30px;
+background-size: contain;
+background-repeat: no-repeat;
+/* width:100px; */
+}
+.mole{
+background-image: url("../media/peanut.png");
+position: absolute;
+top: 100%;
+width: 100%;
+height: 100%;
+transition: 0.4s;
+background-repeat: no-repeat;
+background-position: bottom;
+}
+.mole.small{
+background-size: 60%;
+}
+.mole.big{
+background-size: 80%;
+}
+.hole.up .mole{
+top: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: "Irish Grover", cursive;
+    color: white;
+    text-shadow: 5px 5px red;
+  }
+  a{
+    font-size:2em;
+    font-family:'Irish Grover', cursive;
+    color:white;
+    text-shadow:3px 3px red; 
+    text-decoration: none;
+    position:relative; 
+ }
